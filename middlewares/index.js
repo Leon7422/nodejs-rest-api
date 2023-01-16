@@ -3,6 +3,7 @@ const ctrlWrapper = require("./ctrlWrapper");
 const HandleMongooseError = require("./handleMongooseError");
 const validationObjectId = require("./validationObjectId");
 const auth = require("./auth");
+const upload = require("./upload");
 
 module.exports = {
   validation,
@@ -10,4 +11,5 @@ module.exports = {
   HandleMongooseError,
   validationObjectId,
   auth,
+  upload,
 };
